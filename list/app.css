@@ -1,0 +1,62 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Press Start 2P';
+    font-size: 1rem;
+    line-height: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(59, 59, 7);
+    text-transform: uppercase;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff090;
+  }
+  
+  li {
+    color: #4FAF44;
+  }
+  
+  .arrow i {
+    display: none;
+  }
+  
+  .arrow {
+    position:relative;
+    display: block;
+    color: #F6EB14;
+  }
+  
+  .arrow:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.2);
+  }
+  
+  .arrow:hover i { 
+    display: block;
+    position: absolute;
+    top: 0.50em; 
+    left: -6em;
+  }
+  
+.title-products {
+    position:relative;
+    display: block;
+    color: #9d960f;
+}
+
+.title-hardware{
+    position:relative;
+    display: block;
+    color: #9d960f;
+}
